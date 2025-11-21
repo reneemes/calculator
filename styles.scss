@@ -1,5 +1,6 @@
 $primary-color: #F8C6C9;
 $secondary-color: #f9e6e7;
+$accent-color: #e79297;
 
 body {
   margin: 0;
@@ -33,6 +34,7 @@ main {
   background-color: $primary-color;
   border-radius: 15px;
   max-width: 400px;
+  max-height: 650px;
 
   &__name {
     padding: 5px;
@@ -70,7 +72,7 @@ main {
     cursor: pointer;
 
     &:active {
-      background-color: blue;
+      background-color: $accent-color;
     }
   }
 }
