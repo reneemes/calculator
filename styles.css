@@ -28,7 +28,7 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #F8C6C9;
   border-radius: 15px;
-  max-width: 400px;
+  width: 375px;
   max-height: 650px;
 }
 .calculator-sec__name {

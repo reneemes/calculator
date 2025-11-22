@@ -17,14 +17,14 @@ function calculate() {
   miniDisplay.value = display.value;
   display.value = eval(display.value);
 }
-
+// Return key runs the operation
 display.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') {
     e.preventDefault();
     calculate();
   }
 })
-
+// Allows user to use the keyboard
 document.addEventListener('keydown', (e) => {
   const allowed = "0123456789+-*/.";
 
