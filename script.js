@@ -24,3 +24,16 @@ display.addEventListener('keydown', (e) => {
     calculate();
   }
 })
+
+document.addEventListener('keydown', (e) => {
+  const allowed = "0123456789+-*/.";
+
+  if (allowed.includes(e.key)) {
+    addToDisplay(e.key);
+  }
+
+  if (e.key === "Enter") {
+    e.preventDefault();
+    calculate();
+  }
+})
