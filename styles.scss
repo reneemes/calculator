@@ -43,14 +43,24 @@ main {
     text-align: center;
   }
 
-  &__display {
-    width: 92%;
-    padding: 16px;
+  &__display,
+  &__mini-display {
+    width: 100%;
+    max-width: 342px;
+    padding: 5px 16px;
     font-size: 5rem;
     text-align: right;
     border: none;
     background-color: $secondary-color;
     color: white;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__mini-display {
+    font-size: 1rem;
   }
 }
 
