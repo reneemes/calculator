@@ -53,12 +53,15 @@ main {
     border: none;
     background-color: $secondary-color;
     color: white;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   &__mini-display {
     font-size: 1rem;
   }
-
 }
 
 .btn-sec {

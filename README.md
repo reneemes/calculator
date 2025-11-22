@@ -1,5 +1,9 @@
 # Calculator
 
+This calculator app features a clean, responsive interface built with HTML and CSS, using a grid-based layout for all number buttons, operators, and additional controls. It adapts smoothly across mobile, tablet, and desktop devices for an accessible user experience.
+
+Interactive functionality is powered by JavaScript, enabling users to enter numbers, perform arithmetic operations (addition, subtraction, multiplication, division), and interact using either on-screen buttons or keyboard input. The display updates dynamically to show inputs, operations, and results, and includes a clear button to reset the calculator at any time.
+
 <img src='calculator.png' alt='calculator image'>
 
 ## Instructions

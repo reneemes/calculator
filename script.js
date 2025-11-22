@@ -7,6 +7,7 @@ function addToDisplay(input) {
 
 function clearDisplay() {
   display.value = '';
+  miniDisplay.value = '';
 }
 
 function calculate() {
@@ -16,3 +17,10 @@ function calculate() {
   miniDisplay.value = display.value;
   display.value = eval(display.value);
 }
+
+display.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    calculate();
+  }
+})

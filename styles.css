@@ -47,6 +47,9 @@ main {
   background-color: #f9e6e7;
   color: white;
 }
+.calculator-sec__display:focus, .calculator-sec__mini-display:focus {
+  outline: none;
+}
 .calculator-sec__mini-display {
   font-size: 1rem;
 }
